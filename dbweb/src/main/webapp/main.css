@@ -1,0 +1,73 @@
+@charset "EUC-KR";
+
+#head{
+	position: relative;
+}
+
+#head h1{
+	width : 400px;
+	height : 50px;
+	color: green;
+	float: left;
+	-ms-transform: rotate(-30deg); 
+	-webkit-transform: rotate(-30deg); 
+	transform: rotate(-30deg);
+	
+}
+
+#head button{
+	float : right;
+	width : 200px;
+	height : 50px;
+	font-size : 15px;
+	text-align : center;
+	float : right;
+	background-color : #00BFFF;
+	color : white;
+}
+
+.nav{
+	position : relative;
+	margin : 100px 15px 20px 0px;
+	float : left;
+	width : 100%;
+}
+
+.nav li{
+	width : 420px; 
+	height : 75px;
+	margin-right : 10px;
+	margin-bottom : 10px;
+	
+	background-color : navy;
+	text-align : center;
+	color : white;
+	fontsize : 30px;
+	
+	float : left;
+	padding-left : 20px;
+}
+
+.list{
+	position : relative;
+	float : left;
+	width : 100%;
+	height : 100%;
+	
+}
+.list .card{
+	float : left;
+	width : 420px;
+
+	
+}
+
+.list .card ul{
+	background-color : #CEE3F6;
+	margin-top : -5px;
+	margin-bottom : 20px;
+	padding : 5px 0px 20px 20px;
+}
+.list .card ul li{
+	margin-top: 10px;
+}
